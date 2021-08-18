@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import com.example.myapplication.databinding.FragmentMainBinding
 import com.example.myapplication.databinding.FragmentSpecifyAmountBinding
 import java.math.BigDecimal
@@ -48,6 +49,8 @@ class SpecifyAmountFragment : Fragment() {
                     "recipient" to recipient,
                     "amount" to amount)
                 navController.navigate(R.id.action_specifyAmountFragment_to_confirmationFragment , bundle)
+                //findNavController().navigate(R.id.action_specifyAmountFragment_to_confirmationFragment , bundle)
+                //Navigation.createNavigateOnClickListener(R.id.action_specifyAmountFragment_to_confirmationFragment , bundle)
             }
 
         }
