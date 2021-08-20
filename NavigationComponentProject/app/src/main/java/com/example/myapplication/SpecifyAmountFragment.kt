@@ -35,6 +35,7 @@ class SpecifyAmountFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         _binding = FragmentSpecifyAmountBinding.inflate(inflater , container , false)
+
         return binding.root
     }
 
