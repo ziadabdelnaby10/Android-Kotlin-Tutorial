@@ -7,3 +7,4 @@ Which will be produced from following the android with kotlin course from udacit
 - KTX
 - Animation
 - View Binding
+Better To Use Safe args with it To Generate Direction Class
