@@ -19,4 +19,5 @@ If you get the word right, press **Got It**. If you're stuck, press **Skip**. Th
 - Navigation Component
 - Safe args with navComponent
 - Fragments
-- 
+
+Recomended to use saveStateHandler rather than factory class
